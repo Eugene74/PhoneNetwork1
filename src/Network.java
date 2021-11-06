@@ -15,7 +15,6 @@ public class Network {
 
 	public void register(Phone phone) {
 		Phone[] temp;
-
 		if (phonesSize > phones.length * 0.75) {
 			temp = new Phone[(phones.length * 3) / 2 + 1];
 			System.arraycopy(phones, 0, temp, 0, phones.length);
